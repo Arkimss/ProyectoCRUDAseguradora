@@ -1,0 +1,31 @@
+@page "/agregartercero"
+@inject NavigationManager Navegador;
+@inject AgregarTercerosUseCase AgregarTercerosUseCase
+<DialogoError @ref="dialogo" />
+<p><label>Nombre <input placeholder="" @bind="_tercero.Nombre" class="form-control"></label></p>
+<p><label>Apellido <input placeholder="" @bind="_tercero.Apellido" class="form-control"></label></p>
+<p><label>Id Siniestro <input placeholder="" @bind="_tercero.SiniestroId" class="form-control"></label></p>
+<p><label>Nombre de aseguradora <input placeholder="" @bind="_tercero.NombreAseguradora" class="form-control"></label>
+</p>
+<p><label>Telefono <input placeholder="" @bind="_tercero.Telefono" class="form-control"></label></p>
+<p><label>DNI <input placeholder="" @bind="_tercero.DNI" class="form-control"></label></p>
+<button class="btn btn-primary" @onclick="Aceptar">Aceptar</button>
+@code {
+    Terceros _tercero = new Terceros();
+
+    DialogoError dialogo = new DialogoError();
+    void Aceptar()
+    {
+        try
+        {
+            AgregarTercerosUseCase.Ejecutar(_tercero);
+            _tercero = new Terceros();
+            Navegador.NavigateTo("listadoTerceros");
+        }
+        catch (Exception e)
+        {
+            dialogo.Mensaje = e.Message;
+            dialogo.Mostrar();
+        }
+    }
+}

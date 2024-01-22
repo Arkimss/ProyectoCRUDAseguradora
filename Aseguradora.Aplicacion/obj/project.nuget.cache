@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "i5zkl+4bnO1cjhUobc2kjwp+b75tFxzFBwnLNDjf/8I7jvnaPslK0xY6myxGIT3zfRQNWrwWCdXz0b7nawL+Xw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Acost\\OneDrive\\Documentos\\Aseguradora\\Aseguradora.Aplicacion\\Aseguradora.Aplicacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acost\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Acost\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Acost\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

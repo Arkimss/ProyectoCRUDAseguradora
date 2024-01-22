@@ -1,0 +1,60 @@
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.deps.json
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.pdb
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Aplicacion.dll
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Aplicacion.pdb
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.AssemblyReference.cache
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.AssemblyInfoInputs.cache
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.AssemblyInfo.cs
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.CopyComplete
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\refint\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.pdb
+C:\Users\Acost\OneDrive\Escritorio\Segundo año Facultad\.net\ProyectoAseguradora\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\ref\Aseguradora.Repositorios.dll
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.deps.json
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.dll
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.pdb
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Aplicacion.dll
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Aplicacion.pdb
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.AssemblyReference.cache
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.AssemblyInfoInputs.cache
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.AssemblyInfo.cs
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.CopyComplete
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.dll
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\refint\Aseguradora.Repositorios.dll
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.pdb
+C:\Users\gabo-\Downloads\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\ref\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.deps.json
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.pdb
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Aplicacion.dll
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Aplicacion.pdb
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.AssemblyReference.cache
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.AssemblyInfoInputs.cache
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.AssemblyInfo.cs
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.CopyComplete
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\refint\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.pdb
+C:\Users\Acost\OneDrive\Escritorio\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\ref\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.deps.json
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Repositorios.pdb
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Aplicacion.dll
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\bin\Debug\net7.0\Aseguradora.Aplicacion.pdb
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.AssemblyReference.cache
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.AssemblyInfoInputs.cache
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.AssemblyInfo.cs
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.csproj.CopyComplete
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\refint\Aseguradora.Repositorios.dll
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\Aseguradora.Repositorios.pdb
+C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.Repositorios\obj\Debug\net7.0\ref\Aseguradora.Repositorios.dll

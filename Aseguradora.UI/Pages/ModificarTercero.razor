@@ -1,0 +1,47 @@
+@page "/modificartercero/{Id:int?}"
+@inject NavigationManager Navegador;
+@inject ModificarTerceroUseCase ModificarTercerosUseCase
+@inject ObtenerTerceroUseCase ObtenerTerceroUseCase
+
+
+
+<p><label>Nombre <input placeholder="" @bind-value="_tercero.Nombre" class="form-control"></label></p>
+<p><label>Apellido <input placeholder="" @bind-value="_tercero.Apellido" class="form-control"></label></p>
+<p><label>Id Siniestro <input placeholder="" @bind-value="_tercero.SiniestroId" class="form-control"></label></p>
+<p><label>Nombre de aseguradora <input placeholder="" @bind-value="_tercero.NombreAseguradora"
+            class="form-control"></label>
+</p>
+<p><label>Telefono <input placeholder="" @bind-value="_tercero.Telefono" class="form-control"></label></p>
+<p><label>DNI <input placeholder="" @bind-value="_tercero.DNI" class="form-control"></label></p>
+<button class="btn btn-primary" @onclick="Aceptar">Aceptar</button>
+
+@code {
+    [Parameter] public int? Id { get; set; }
+    Terceros _tercero = new Terceros();
+
+    protected override void OnInitialized()
+    {
+        Terceros? resultado;
+        if (Id != null)
+        {
+            resultado = ObtenerTerceroUseCase.Ejecutar(Id.Value);
+            if (resultado != null)
+            {
+                _tercero = resultado;
+            }
+        }
+    }
+
+
+    void Aceptar()
+    {
+
+        if (_tercero != null)
+        {
+            ModificarTercerosUseCase.Ejecutar(_tercero);
+            _tercero = new Terceros();
+            Navegador.NavigateTo("listadoTerceros");
+        }
+    }
+
+}

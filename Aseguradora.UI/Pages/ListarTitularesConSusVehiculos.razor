@@ -1,0 +1,48 @@
+@page "/listadoTitularesConVehiculos"
+@inject ListarVehiculosDeTitularesUseCase ListarVehiculosDeTitularesUseCase
+@inject NavigationManager Navegador;
+@inject IJSRuntime JsRuntime;
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>DNI</th>
+            <th>Telefono</th>
+            <th>Correo</th>
+            <th>Dirección</th>
+            <th>Lista de Vehiculos</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tit in _lista)
+        {
+            <tr>
+                <td>@tit.Id</td>
+                <td>@tit.Nombre</td>
+                <td>@tit.Apellido</td>
+                <td>@tit.DNI</td>
+                <td>@tit.Telefono</td>
+                <td>@tit.Correo</td>
+                <td>@tit.Direccion</td>
+                <td>                    
+                    <ul>@foreach (var vehiculo in @tit.ListaDeVehiculos){
+                            <li>@vehiculo.Dominio</li>
+                        }                        
+                    </ul>                    
+                </td>                
+            </tr>
+        }
+    </tbody>
+</table>
+@code {    
+    List<Titular> _lista = new List<Titular>();
+
+    protected override void OnInitialized()
+    {
+        _lista = ListarVehiculosDeTitularesUseCase.Ejecutar();                
+    }
+}

@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Aseguradora.UI
+build_property.RootNamespace = Aseguradora.UI
+build_property.ProjectDir = C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Acost\OneDrive\Documentos\Aseguradora\Aseguradora.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/AgregarPoliza.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhclBvbGl6YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/AgregarSiniestro.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhclNpbmllc3Ryby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/AgregarTercero.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhclRlcmNlcm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/AgregarVehiculo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhclZlaGljdWxvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ListarPolizas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFyUG9saXphcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ListarSiniestros.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFyU2luaWVzdHJvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ListarTerceros.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFyVGVyY2Vyb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ListarTitularesConSusVehiculos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFyVGl0dWxhcmVzQ29uU3VzVmVoaWN1bG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ListarVehiculos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFyVmVoaWN1bG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ModificarPoliza.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kaWZpY2FyUG9saXphLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ModificarSiniestro.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kaWZpY2FyU2luaWVzdHJvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ModificarTercero.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kaWZpY2FyVGVyY2Vyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ModificarTitular.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kaWZpY2FyVGl0dWxhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ModificarVehiculo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kaWZpY2FyVmVoaWN1bG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/AgregarTitular.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhclRpdHVsYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-u6aqqwyaej
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/ListarTitulares.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFyVGl0dWxhcmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-zvdfviz0ju
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Shared/DialogoConfirmacion.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERpYWxvZ29Db25maXJtYWNpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-kzkkcmuwyw
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Shared/DialogoError.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERpYWxvZ29FcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-tw4k7wasd4
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-g6x6s7l54y
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7swmyw7ncn
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acost/OneDrive/Documentos/Aseguradora/Aseguradora.UI/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

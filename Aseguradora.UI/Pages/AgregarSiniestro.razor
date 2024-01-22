@@ -1,0 +1,31 @@
+@page "/agregarsiniestro"
+@inject NavigationManager Navegador;
+@inject AgregarSiniestroUseCase AgregarSiniestroUseCase
+
+<DialogoError @ref="dialogo" />
+<p><label>Id Poliza <input placeholder="" @bind="_siniestro.PolizaId" class="form-control"></label></p>
+<p><label>Fecha Ocurrencia <input placeholder="" @bind="_siniestro.FechaOcurrencia" class="form-control"></label></p>
+<p><label>Descripcion Accidente <input placeholder="" @bind="_siniestro.DescripcionAccidente"
+            class="form-control"></label></p>
+<p><label>Direccion Del Hecho <input placeholder="" @bind="_siniestro.DireccionDelHecho" class="form-control"></label>
+</p>
+<button class="btn btn-primary" @onclick="Aceptar">Aceptar</button>
+
+@code {
+    DialogoError dialogo = new DialogoError();
+    Siniestro _siniestro = new Siniestro();
+    void Aceptar()
+    {
+        try
+        {
+            AgregarSiniestroUseCase.Ejecutar(_siniestro);
+            _siniestro = new Siniestro();
+            Navegador.NavigateTo("listadoSiniestros");
+        }
+        catch (Exception e)
+        {
+            dialogo.Mensaje = e.Message;
+            dialogo.Mostrar();
+        }
+    }
+}

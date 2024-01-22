@@ -1,0 +1,23 @@
+.dialogo-contenedor[b-tw4k7wasd4] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(65, 53, 53, 0.5);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialogo-contenido[b-tw4k7wasd4] {
+    width: 50%;
+    padding: 20px 15px;
+    background-color: white;
+    font-size: 16px;
+    /* Tamaño de fuente del botón */
+    border: none;
+    /* Eliminar borde del botón */
+    cursor: pointer;/
+}

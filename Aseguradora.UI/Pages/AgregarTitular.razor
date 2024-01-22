@@ -1,0 +1,34 @@
+@page "/agregartitular"
+@inject NavigationManager Navegador;
+@inject AgregarTitularUseCase AgregarTitularUseCase;
+
+<DialogoError @ref="dialogo" Mensaje="" />
+<p><label>Nombre <input placeholder="" @bind="_titular.Nombre" class="form-control"> </label></p>
+<p><label>Apellido<input placeholder="" @bind="_titular.Apellido" class="form-control"></label></p>
+<p><label>Correo<input placeholder="" @bind="_titular.Correo" class="form-control"></label></p>
+<p><label>Direccion<input placeholder="" @bind="_titular.Direccion" class="form-control"></label></p>
+<p><label>Telefono<input placeholder="" @bind="_titular.Telefono" class="form-control"></label></p>
+<p> <label>DNI<input type="number" placeholder="" @bind="_titular.DNI" class="form-control"></label></p>
+<!--<input  placeholder="Edad" @bind="p.Edad" /><br>-->
+
+<button class="btn btn-primary mi-design" @onclick="Aceptar">Aceptar</button>
+
+@code {
+    Titular _titular = new Titular();
+
+    DialogoError dialogo = null!;
+    void Aceptar()
+    {
+        try
+        {
+            AgregarTitularUseCase.Ejecutar(_titular);
+            _titular = new Titular();
+            Navegador.NavigateTo("listadoTitulares");
+        }
+        catch (Exception e)
+        {
+            dialogo.Mensaje = e.Message;
+            dialogo.Mostrar();
+        }
+    }
+}

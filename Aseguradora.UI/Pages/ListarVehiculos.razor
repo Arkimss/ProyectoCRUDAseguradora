@@ -1,0 +1,75 @@
+@page "/listadovehiculos"
+@inject ListarVehiculosUseCase ListarVehiculosUseCase
+@inject EliminarVehiculoUseCase EliminarVehiculoUseCase
+@inject NavigationManager Navegador;
+@inject IJSRuntime JsRuntime;
+
+
+<DialogoConfirmacion @ref="dialogo" OnConfirmado="Eliminar" />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Dominio</th>
+            <th>Marca</th>
+            <th>Año de fabricacion</th>
+            <th>TitularId</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var v in _lista)
+        {
+            <tr>
+                <td>@v.Id</td>
+                <td>@v.Dominio</td>
+                <td>@v.Marca</td>
+                <td>@v.AnioDeFabricacion</td>
+                <td>@v.TitularId</td>
+                <td>
+                    <button class="btn btn-primary" @onclick="()=>ModificarVehiculo(v)">
+                        <span class="oi oi-pencil"></span>
+                    </button>
+                    <button class="btn btn-danger" @onclick="()=>ConfirmarEliminacion(v)">
+                        <span class="oi oi-trash"></span>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@code {    
+    List<Vehiculo> _lista = new List<Vehiculo>();
+    protected override void OnInitialized()
+    {
+        _lista = ListarVehiculosUseCase.Ejecutar();
+    }
+
+    DialogoConfirmacion dialogo = null!;
+    Vehiculo? _vehiculoParaEliminar = null;
+    private void ConfirmarEliminacion(Vehiculo vehiculo)
+    {
+        _vehiculoParaEliminar = vehiculo;
+
+        if (vehiculo != null)
+        {
+            dialogo.Mensaje = $"¿Desea eliminar al vehiculo {vehiculo.Dominio} {vehiculo.Marca}?";
+            dialogo.Mostrar();
+        }
+    }
+    private void ModificarVehiculo(Vehiculo vehiculo)
+    {
+        Navegador.NavigateTo($"modificarvehiculo/{vehiculo.Id}");
+        _lista = ListarVehiculosUseCase.Ejecutar();
+    }
+
+    private void Eliminar()
+    {
+        if (_vehiculoParaEliminar != null)
+        {
+            EliminarVehiculoUseCase.Ejecutar(_vehiculoParaEliminar.Id);
+            _lista = ListarVehiculosUseCase.Ejecutar();
+        }
+    }
+
+}

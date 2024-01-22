@@ -1,0 +1,34 @@
+@page "/agregarvehiculo"
+@inject NavigationManager Navegador;
+@inject AgregarVehiculoUseCase AgregarVehiculoUseCase
+
+<DialogoError @ref="dialogo" />
+
+<p><label>Dominio <input placeholder="" @bind="_vehiculo.Dominio" class="form-control"></label></p>
+<p><label>Marca <input placeholder="" @bind="_vehiculo.Marca" class="form-control"></label></p>
+<p><label>Año de fabricacion <input placeholder="" @bind="_vehiculo.AnioDeFabricacion" class="form-control"></label></p>
+<p><label>Id del Titular del vehiculo <input placeholder="" @bind="_vehiculo.TitularId" class="form-control"></label>
+</p>
+<button class="btn btn-primary" @onclick="Aceptar">Aceptar</button>
+
+@code {
+    Vehiculo _vehiculo = new Vehiculo();
+
+    DialogoError dialogo = null!;
+
+    void Aceptar()
+    {
+        try
+        {
+            AgregarVehiculoUseCase.Ejecutar(_vehiculo);
+            _vehiculo = new Vehiculo();
+            Navegador.NavigateTo("listadoVehiculos");
+        }
+
+        catch (Exception e)
+        {
+            dialogo.Mensaje = e.Message;
+            dialogo.Mostrar();
+        }
+    }
+}

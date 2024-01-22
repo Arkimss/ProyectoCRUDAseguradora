@@ -1,0 +1,50 @@
+@page "/modificarvehiculo/{Id:int?}"
+@inject NavigationManager Navegador;
+@inject ModificarVehiculoUseCase ModificarVehiculoUseCase
+@inject ObtenerVehiculoUseCase ObtenerVehiculoUseCase
+
+<p><label>Dominio <input placeholder="" @bind-value="_vehiculo.Dominio" class="form-control"></label></p>
+<p><label>Marca <input placeholder="" @bind-value="_vehiculo.Marca" class="form-control"></label></p>
+<p><label>Año de fabricacion <input placeholder="" @bind-value="_vehiculo.AnioDeFabricacion"
+            class="form-control"></label></p>
+<p><label>Id del Titular del vehiculo <input placeholder="" @bind-value="_vehiculo.TitularId"
+            class="form-control"></label>
+</p>
+<button class="btn btn-primary" @onclick="Aceptar">Aceptar</button>
+<button class="btn btn-secondary" @onclick="Cancelar">Cancelar</button>
+
+<DialogoError @ref="dialogo" />
+@code {
+    [Parameter] public int? Id { get; set; }
+    Vehiculo _vehiculo = new Vehiculo();
+
+    protected override void OnInitialized()
+    {
+        Vehiculo? resultado;
+        if (Id != null)
+        {
+            resultado = ObtenerVehiculoUseCase.Ejecutar(Id.Value);
+            if (resultado != null)
+            {
+                _vehiculo = resultado;
+            }
+        }
+
+    }
+    DialogoError dialogo = new DialogoError();
+    void Aceptar()
+    {
+        if (_vehiculo != null)
+        {
+            ModificarVehiculoUseCase.Ejecutar(_vehiculo);
+            _vehiculo = new Vehiculo();
+            Navegador.NavigateTo("listadoVehiculos");
+        }
+    }
+    void Cancelar()
+    {
+        dialogo.Mensaje = "Se canceló la modificación";
+        dialogo.Mostrar();
+        Navegador.NavigateTo("listadoVehiculos");
+    }
+}

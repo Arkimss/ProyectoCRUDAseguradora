@@ -1,0 +1,42 @@
+@page "/modificartitular/{Id:int?}"
+@inject NavigationManager Navegador;
+@inject ModificarTitularUseCase ModificarTitularUseCase
+@inject ObtenerTitularUseCase ObtenerTitularUseCase
+
+
+
+<p><label>Nombre <input placeholder="" @bind-value="_titular.Nombre" class="form-control"> </label></p>
+<p><label>Apellido<input placeholder="" @bind-value="_titular.Apellido" class="form-control"></label></p>
+<p><label>Correo<input placeholder="" @bind-value="_titular.Correo" class="form-control"></label></p>
+<p><label>Direccion<input placeholder="" @bind-value="_titular.Direccion" class="form-control"></label></p>
+<p><label>Telefono<input placeholder="" @bind-value="_titular.Telefono" class="form-control"></label></p>
+<p> <label>DNI<input placeholder="" @bind-value="_titular.DNI" class="form-control"></label></p>
+
+@code {
+    [Parameter] public int? Id { get; set; }
+    Titular _titular = new Titular();
+
+    protected override void OnInitialized()
+    {
+        Titular? resultado;
+        if (Id != null)
+        {
+            resultado = ObtenerTitularUseCase.Ejecutar(Id.Value);
+            if (resultado != null)
+            {
+                _titular = resultado;
+            }
+        }
+    }
+    void Aceptar()
+    {
+
+        if (_titular != null)
+        {
+            ModificarTitularUseCase.Ejecutar(_titular);
+            _titular = new Titular();
+            Navegador.NavigateTo("listadoTitulares");
+        }
+    }
+
+}
